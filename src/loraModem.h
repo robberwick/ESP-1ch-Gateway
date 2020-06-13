@@ -267,15 +267,15 @@ struct pins {
 // RST  == GPIO14/ PIN14
 struct pins {
 	uint8_t dio0=26;		// GPIO26 / Dio0 used for one frequency and one SF
-	uint8_t dio1=35;		// GPIO35 / Used for CAD, may or not be shared with DIO0
-	uint8_t dio2=34;		// GPIO34 / Used for frequency hopping, don't care
+	uint8_t dio1=33;		// GPIO35 / Used for CAD, may or not be shared with DIO0
+	uint8_t dio2=32;		// GPIO34 / Used for frequency hopping, don't care
 	uint8_t ss=18;			// GPIO18 / Dx. Select pin connected to GPIO18
-	uint8_t rst=14;			// GPIO0 / D3. Reset pin not used	
+	uint8_t rst=23;			// GPIO0 / D3. Reset pin not used	
 } pins;
 #define SCK 5				// Check
 #define MISO 19				// Check
 #define MOSI 27				// Check
-#define RST 14				// Check
+#define RST 23				// Check
 #define SS 18
 
 

@@ -110,7 +110,7 @@ struct wpas {
 // below. This is needed to get the gateway working
 //
 wpas wpa[] = {
-	{ "yourSSID", "yourPassword" },
+	{ "choc-choc", "c0l1nw0lfgang" },
 	{ "Your2SSID", "your2Password" }
 };
 
@@ -128,17 +128,17 @@ wpas wpa[] = {
 // Define the name of the accesspoint if the gateway is in accesspoint mode (is
 // getting WiFi SSID and password using WiFiManager). 
 // If you do not need them, comment out.
-//#define AP_NAME "Gway-Things4U"
-//#define AP_PASSWD "ttnAutoPw"
+#define AP_NAME "Gway-Things4U"
+#define AP_PASSWD "ttnAutoPw"
 
 
 // Gateway Ident definitions. Where is the gateway located?
 #define _DESCRIPTION "ESP Gateway"			// Name of the gateway
-#define _EMAIL "mw12554@hotmail.com"		// Owner
-#define _PLATFORM "ESP8266"
-#define _LAT 52.237367
-#define _LON 5.978654
-#define _ALT 14								// Altitude
+#define _EMAIL "rob.berwick@gmail.com"		// Owner
+#define _PLATFORM "ESP32"
+#define _LAT 51.95608681
+#define _LON -0.25684568
+#define _ALT 56								// Altitude
 
 
 // For asserting and testing the following defines are used.
